@@ -181,6 +181,10 @@ button, input[type="submit"],.ux-btn {
 }
 
 /* General css3*/
+
+.sparkle{
+  background-image: url(img/sparkle.png)!important ;
+}
 .fullscreen-wrap {
   height: 500px; height: 100vh;
 }
@@ -4514,8 +4518,11 @@ blockquote em, blockquote i, blockquote cite {
     padding-top: 160px;
   }
   body.error404 #content_wrap {
-    padding-top: 140px;
+    /* padding-top: 140px; */
   }
+
+  .bubble img {max-width: 20%;}
+
   .single-portfolio-fullwidth:not(.page_from_top) .title-wrap,
   .show-top-space #content,
   .blog-list > article,
