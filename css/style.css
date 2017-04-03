@@ -4521,7 +4521,7 @@ blockquote em, blockquote i, blockquote cite {
     /* padding-top: 140px; */
   }
 
-  .bubble img {max-width: 20%;}
+  .bubble img {max-width: 20% !important;}
 
   .single-portfolio-fullwidth:not(.page_from_top) .title-wrap,
   .show-top-space #content,
